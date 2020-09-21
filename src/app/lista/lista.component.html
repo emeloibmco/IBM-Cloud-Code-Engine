@@ -1,0 +1,26 @@
+<h1>Enter your list item</h1>
+<br>
+
+<div class="row">
+    <div class="col-xs-6 col-md-4">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="items" [(ngModel)]="item" />
+            <button class="btn btn-primary" type="button" (click)="onClick()">
+                <span class="fas fa-bolt"></span>
+            </button>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="list-group">
+            <li *ngFor="let item of items" class="list-group-item list-group-item-action">
+                <span> {{ item.name }} </span>
+            </li>
+        </div>
+
+    </div>
+</div>
+
+<br>
+
