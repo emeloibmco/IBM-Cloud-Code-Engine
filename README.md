@@ -42,12 +42,12 @@ IBM Cloud Engine permite realizar despliegue de aplicaciones a partir de una ima
   
   Luego en el proyecto de code engine en el panel de la izquierda selecciona la sección **acceso a registro** y en el boton crear se despliega un menú que debe   llenar asi:
   
--_Orden de registro: Seleccionar personalizado
--_Nombre de registro: Puede usar el nombre sugerido
--_Nombre de usuario: iamapikey
--_Servidor de registro: En nuestro caso el servidor de us-south es us.icr.io. Usar el servidor de su region.
--_Contraseña: Ingrese la apikey que genero o una existente.
--_Correo electronico: El correo de su cuenta IBM cloud.
+- _Orden de registro: Seleccionar personalizado
+- _Nombre de registro: Puede usar el nombre sugerido
+- _Nombre de usuario: iamapikey
+- _Servidor de registro: En nuestro caso el servidor de us-south es us.icr.io. Usar el servidor de su region.
+- _Contraseña: Ingrese la apikey que genero o una existente.
+- _Correo electronico: El correo de su cuenta IBM cloud.
 
   Finalmente dar click en el botón crear.
   
