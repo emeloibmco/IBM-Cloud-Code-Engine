@@ -38,10 +38,14 @@ IBM Cloud Engine permite realizar despliegue de aplicaciones a partir de una ima
 
 ![Code](resources/code.png)
 
-  5. **Configurar el acceso a registro**: del proyecto. Para esto se debe generar un apikey en el panel de acceso IAM que tenga permisos para acceder y editar       el container registry.
-  
-      Luego en el proyecto de code engine en el panel de la izquierda selecciona la sección **acceso a registro** y en el boton crear se despliega un menú que       debe   llenar asi:
-  
+  5. **Configurar el acceso a registro**: del proyecto. Para esto se debe generar un apikey en el panel de acceso IAM que tenga permisos para acceder y editar el container registry.
+
+![Code](resources/gen-apikey.png)
+
+  Luego en el proyecto de code engine en el panel de la izquierda selecciona la sección acceso a registro y en el boton crear se despliega un menú que debe llenar asi:
+
+  ![Code](resources/acceso-registry.png)
+
 - _Orden de registro_: Seleccionar personalizado
 - _Nombre de registro_: Puede usar el nombre sugerido
 - _Nombre de usuario_: iamapikey
@@ -50,6 +54,8 @@ IBM Cloud Engine permite realizar despliegue de aplicaciones a partir de una ima
 - _Correo electronico_: El correo de su cuenta IBM cloud.
 
   Finalmente dar click en el botón crear.
+
+![Code](resources/register.png)  
   
   
 6. **Build Details**: presionamos el botón Specify build details, lo que nos desplegará un panel en el costado derecho de la pantalla. Llenamos los campos de acuerdo a la siguiente información: <br><br>
